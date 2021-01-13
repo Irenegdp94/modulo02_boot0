@@ -10,5 +10,6 @@ def sumatodos(limitTo, f):
         
     return resultado
 
-print(sumatodos(100, normal))
-print(sumatodos(3,cuadrado))
+if __name__ == "__main__":
+    print(sumatodos(100, normal))
+    print(sumatodos(3,cuadrado))
